@@ -20,7 +20,7 @@ function renderLicenseLink(license) {
   if (license === "MIT License") {
     return `MIT License
 
-  Copyright (c) 2024
+  Copyright (c) 2024 ${data.username}
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -39,11 +39,10 @@ function renderLicenseLink(license) {
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.`;
+  } else if (license === "Mozilla Public License 2.0") {
+    return ``;
   }
 }
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
