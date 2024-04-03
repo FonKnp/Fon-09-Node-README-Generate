@@ -8,8 +8,8 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is your project title?"
-    default: "title", 
+    message: "What is your project title?",
+    default: "title",
   },
   {
     type: "input",
@@ -53,6 +53,18 @@ const questions = [
     message: "What are the test instructions?",
     default: "tests",
   },
+  {
+    type: "input",
+    name: "username",
+    message: "What is your GitHub username?",
+    default: "username",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+    default: "email",
+  },
 ];
 
 // TODO: Create a function to write README file
@@ -66,7 +78,9 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer
     .prompt(questions)
-    .then((data) => writeToFile("README-test.md", generateMarkdown(data)))
+    .then((data) =>
+      writeToFile("./utils/README-test.md", generateMarkdown(data))
+    )
     .catch((err) => console.log(err));
 }
 
