@@ -19,9 +19,11 @@ Title, Description, Installation, Usage, License, Contributing, Test, and Questi
 
 This is video sample:
 
-![Example Video](./utils/SampleVideo.mp4)
+![Example Video](./utils/SampleVideo.gif)
 
-[Example Video](https://drive.google.com/file/d/1Cld5F21lXODMUsvkIBzh7-gw3LvGdqTe/view)
+[Example Video 01](https://drive.google.com/file/d/1u6jMQDglg0sZigMO9DqCWEN7nS3uEpaA/view?usp=sharing)
+
+[Example Video 02](https://drive.google.com/file/d/1YQCeBzr_cvpwv3rWZfdTUEVn7BTpfP6y/view?usp=sharing)
 
 ## Credits
 
