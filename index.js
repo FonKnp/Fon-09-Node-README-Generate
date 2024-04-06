@@ -9,7 +9,7 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is your project title?",
-    default: "title",
+    default: "Title",
   },
   {
     type: "input",
@@ -35,7 +35,7 @@ const questions = [
     message: "Which license would you like to use?",
     choices: [
       "MIT License",
-      "Mozilla Public License 2.0",
+      "Apache License 2.0",
       "Boost Software License 1.0",
       "The Unlicense",
     ],
