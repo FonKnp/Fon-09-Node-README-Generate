@@ -20,7 +20,7 @@ function renderLicenseSection(license) {
   if (license === "MIT License") {
     return `MIT License
 
-  Copyright (c) 2024 ${data.username}
+  Copyright (c) 2024
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -300,11 +300,15 @@ limitations under the License.`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
-## Description
+
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+
 ${data.description}
 
 ## Table of Contents
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -313,22 +317,28 @@ ${data.description}
 * [Questions](#questions)
 
 ## Installation
+
 ${data.installation}
 
 ## Usage
+
 ${data.usage}
 
 ## License
+
 ${renderLicenseSection(data.license)}
 
 
 ## Contributing
+
 ${data.contributing}
 
 ## Tests
+
 ${data.tests}
 
 ## Questions
+
 This is my GitHub profile: [${data.username}](https://github.com/${
     data.username
   })
