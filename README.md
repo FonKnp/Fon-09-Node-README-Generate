@@ -18,7 +18,10 @@ This will generate a Professional README markdown file with the following
 Title, Description, Installation, Usage, License, Contributing, Test, and Questions.
 
 This is video sample:
-![Example Video](./utils/SampleVideo.webm)
+
+![Example Video](./utils/SampleVideo.mp4)
+
+[Example Video](https://drive.google.com/file/d/1Cld5F21lXODMUsvkIBzh7-gw3LvGdqTe/view)
 
 ## Credits
 
